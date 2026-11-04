@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "nodialog",
+  "version": "${version}",
+  "name": "No Dialogs",
+  "description": "Completely disables the dialog screens added in Minecraft 1.21.6.",
+  "environment": "client",
+  "mixins": ["nodialog.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
